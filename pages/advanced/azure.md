@@ -9,7 +9,7 @@
 
 ![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/create_app.png#center)
 
-<img src="https://github.com/wavecnct/poc-doc/blob/main/.github/create_app.png" style= "align: center"></img>
+<img src="https://github.com/wavecnct/poc-doc/blob/main/.github/create_app.png" position= "center"></img>
 
 3. Now click on the **Single Sign-On tab** and click **SAML**. The form below should appear.
 
