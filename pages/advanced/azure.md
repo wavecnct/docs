@@ -25,7 +25,9 @@
 6. **Recommended**: In the Attributes & Claims section, change the Unique User Identifier to email address.
 
 ![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/attributes&claims.png)
-![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/.png)
+
+![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/.png)<br>
+
 <span style="background-color: #FF0000; display: block; max-width=100%;"> **Note**: Don't forget to assign users and /or groups to the application.</span>
 <div style="page-break-after: always;"></div>
 
