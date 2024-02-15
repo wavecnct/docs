@@ -1,4 +1,4 @@
-![Company Logo] (logo.png)
+![](.github/logo.png)
 # SAML Guide - Microsoft Intra ID
 
 ## Create a new Application in Azure
