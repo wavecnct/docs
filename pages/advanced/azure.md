@@ -7,25 +7,25 @@
 1. To create a new application in Azure, go to **Identity > Application > Enterprise Application > New Application**
 2. Click on **Create your own application.** Next, enter the name of the application (e.g. Wave Connect) and choose *"Integrate any other application you don't find in the gallery".*
 
-![Create your own application] (https://github.com/wavecnct/poc-doc/blob/main/.github/create_app.png)
+![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/create_app.png)
 
 3. Now click on the **Single Sign-On tab** and click **SAML**. The form below should appear.
 
-![SSO Form] (https://github.com/wavecnct/poc-doc/blob/main/.github/SSO_form.png)
+![SSO Form](https://github.com/wavecnct/poc-doc/blob/main/.github/SSO_form.png)
 
 4. Enter the **Identofier (Entity ID)** (e.g. wave-connect)
 
-![Create your own application] (https://github.com/wavecnct/poc-doc/blob/main/.github/identifier(entity_id).png)
+![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/identifier(entity_id).png)
 
 5. Add <span style="background-color: #6F6F6F">https://app.wabecnct.com/__/auth/handler</span> for the Reply URL.
 *Note: Currently, only service-provider (SP) initiated SAML is available.
 
-![Create your own application] (https://github.com/wavecnct/poc-doc/blob/main/.github/replu_url.png)
+![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/replu_url.png)
 
 6. **Recommended**: In the Attributes & Claims section, change the Unique User Identifier to email address.
 
-![Create your own application] (https://github.com/wavecnct/poc-doc/blob/main/.github/attributes&claims.png)
-![Create your own application] (https://github.com/wavecnct/poc-doc/blob/main/.github/manage_claims.png)
+![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/attributes&claims.png)
+![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/.png)
 <span style="background-color: #FF0000; display: block; max-width=100%;"> **Note**: Don't forget to assign users and /or groups to the application.</span>
 <div style="page-break-after: always;"></div>
 
