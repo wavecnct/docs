@@ -1,4 +1,4 @@
-![Company Logo](logo.png)
+![Company Logo](https://github.com/wavecnct/poc-doc/blob/main/.github/logo.png)
 
 # SAML Guide - Microsoft Intra ID
 
