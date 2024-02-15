@@ -20,13 +20,13 @@
 5. Add <span style="background-color: #6F6F6F">https://app.wabecnct.com/__/auth/handler</span> for the Reply URL.
 *Note: Currently, only service-provider (SP) initiated SAML is available.
 
-![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/replu_url.png)
+![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/reply_url.png)
 
 6. **Recommended**: In the Attributes & Claims section, change the Unique User Identifier to email address.
 
 ![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/attributes&claims.png)
 
-![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/.png)<br>
+![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/manage_claims.png)<br>
 
 <span style="background-color: #FF0000; display: block; max-width=100%;"> **Note**: Don't forget to assign users and /or groups to the application.</span>
 <div style="page-break-after: always;"></div>
