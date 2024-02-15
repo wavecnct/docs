@@ -1,4 +1,4 @@
-![Company Logo](.github/logo.png)
+![Company Logo](logo.png)
 
 # SAML Guide - Microsoft Intra ID
 
