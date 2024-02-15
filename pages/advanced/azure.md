@@ -7,7 +7,9 @@
 1. To create a new application in Azure, go to **Identity > Application > Enterprise Application > New Application**
 2. Click on **Create your own application.** Next, enter the name of the application (e.g. Wave Connect) and choose *"Integrate any other application you don't find in the gallery".*
 
-![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/create_app.png)
+![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/create_app.png#center)
+
+<img src="https://github.com/wavecnct/poc-doc/blob/main/.github/create_app.png" style= "align: center"></img>
 
 3. Now click on the **Single Sign-On tab** and click **SAML**. The form below should appear.
 
