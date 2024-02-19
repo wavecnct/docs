@@ -2,8 +2,8 @@
   "index": "Introduction",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
+  "saml-custom-mapping": {
+    "title": "SAML Custom-Mapping",
     "type": "page"
   },
   "contact": {
