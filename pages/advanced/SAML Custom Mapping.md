@@ -15,58 +15,57 @@
         <th>Description</th>
     </tr>
     <tr>
-        <td align="center">givenname</td>
-        <td align="center">First Name (Required)</td>
+        <td>givenname</td>
+        <td>First Name (Required)</td>
     </tr>
     <tr>
-        <td align="center">surname</td>
-        <td align="center">Last Name (Required)</td>
+        <td>surname</td>
+        <td>Last Name (Required)</td>
     </tr>
     <tr>
-        <td align="center">emailaddress / email</td>
-        <td align="center">Account Email (Required)</td>
+        <td>emailaddress / email</td>
+        <td>Account Email (Required)</td>
     </tr>
     <tr>
-        <td align="center">accountphone</td>
-        <td align="center">Account Phone Number</td>
+        <td>accountphone</td>
+        <td>Account Phone Number</td>
     </tr>
     <tr>
-        <td align="center">profession</td>
-        <td align="center">Profession/Job Title</td>
+        <td>profession</td>
+        <td>Profession/Job Title</td>
     </tr>
     <tr>
-        <td align="center">location</td>
-        <td align="center">City or Location</td>
+        <td>location</td>
+        <td>City or Location</td>
     </tr>
     <tr>
-        <td align="center">mobilephone</td>
-        <td align="center">Cellphone Number</td>
+        <td>mobilephone</td>
+        <td>Cellphone Number</td>
     </tr>
     <tr>
-        <td align="center">workphone</td>
-        <td align="center">Work Phone Number</td>
+        <td>workphone</td>
+        <td>Work Phone Number</td>
     </tr>
     <tr>
-        <td align="center">workphoneext</td>
-        <td align="center"Work Phone Extension</td>
+        <td>workphoneext</td>
+        <td>Work Phone Extension</td>
     </tr>
     <tr>
-        <td align="center">workemail</td>
-        <td align="center">Wrok Email Address</td>
+        <td>workemail</td>
+        <td>Wrok Email Address</td>
     </tr>
     <tr>
-        <td align="center">company</td>
-        <td align="center">Company Name</td>
+        <td>company</td>
+        <td>Company Name</td>
     </tr>
     <tr>
-        <td align="center">teamid</td>
-        <td align="center">Depreciated: Replaced by Directory Sync / SCIM</td>
+        <td>teamid</td>
+        <td>Depreciated: Replaced by Directory Sync / SCIM</td>
     </tr>
 </table>
 
 3. For **Source Attribute**, enter one of the fields available in your Intra ID.
-
-<img src="https://github.com/wavecnct/poc-doc/blob/main/.github/source_attribute.png" alt="Source Attribute"><br>
+<br><br><img src="https://github.com/wavecnct/poc-doc/blob/main/.github/source_attribute.png" alt="Source Attribute"><br>
 
 ## Support
 If you need further assistance during any stage of the SSO integraion process, pleade no not hesistate to reach out to our support team at <a href="support-dev@wavecnct.com">support-dev@wavecnct.com</a>
