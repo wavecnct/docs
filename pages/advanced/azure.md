@@ -65,7 +65,7 @@ How SSO works:
             <li>Member attempt tp log in to Wave Connect (Wave) by entering his/her email address</li>
             <li>The user attempts to login by clicking on the SSO button and entering the organization username (This can be found in your organization settings).
             
-            ![Organization_Username](https://github.com/wavecnct/poc-doc/blob/main/.github/Org_Username.png)<br>
+![Organization_Username](https://github.com/wavecnct/poc-doc/blob/main/.github/Org_Username.png)<br>
             </li>
             </ol>
     </li>
