@@ -5,7 +5,7 @@
 
 ## ADD custom claims to your SSO Integration
 1. On your Azure application, go to **Single Sign-On** page, then click **Edit** under the **Attributes & Claims** section.
-<img src="https://github.com/wavecnct/poc-doc/blob/main/.github/Edit-Attributes&Claims.png" alt="Edit-Attributes&Claims"><br>
+<br><br><img src="https://github.com/wavecnct/poc-doc/blob/main/.github/Edit-Attributes&Claims.png" alt="Edit-Attributes&Claims"><br>
 
 2. Click on **Add New Claim**, then add one the following available fields as the name of the claim:
 
@@ -15,52 +15,52 @@
         <th>Description</th>
     </tr>
     <tr>
-        <td>givenname</td>
-        <td>First Name (Required)</td>
+        <td align="center">givenname</td>
+        <td align="center">First Name (Required)</td>
     </tr>
     <tr>
-        <td>surname</td>
-        <td>Last Name (Required)</td>
+        <td align="center">surname</td>
+        <td align="center">Last Name (Required)</td>
     </tr>
     <tr>
-        <td>emailaddress / email</td>
-        <td>Account Email (Required)</td>
+        <td align="center">emailaddress / email</td>
+        <td align="center">Account Email (Required)</td>
     </tr>
     <tr>
-        <td>accountphone</td>
-        <td>Account Phone Number</td>
+        <td align="center">accountphone</td>
+        <td align="center">Account Phone Number</td>
     </tr>
     <tr>
-        <td>profession</td>
-        <td>Profession/Job Title</td>
+        <td align="center">profession</td>
+        <td align="center">Profession/Job Title</td>
     </tr>
     <tr>
-        <td>location</td>
-        <td>City or Location</td>
+        <td align="center">location</td>
+        <td align="center">City or Location</td>
     </tr>
     <tr>
-        <td>mobilephone</td>
-        <td>Cellphone Number</td>
+        <td align="center">mobilephone</td>
+        <td align="center">Cellphone Number</td>
     </tr>
     <tr>
-        <td>workphone</td>
-        <td>Work Phone Number</td>
+        <td align="center">workphone</td>
+        <td align="center">Work Phone Number</td>
     </tr>
     <tr>
-        <td>workphoneext</td>
-        <td>Work Phone Extension</td>
+        <td align="center">workphoneext</td>
+        <td align="center"Work Phone Extension</td>
     </tr>
     <tr>
-        <td>workemail</td>
-        <td>Wrok Email Address</td>
+        <td align="center">workemail</td>
+        <td align="center">Wrok Email Address</td>
     </tr>
     <tr>
-        <td>company</td>
-        <td>Company Name</td>
+        <td align="center">company</td>
+        <td align="center">Company Name</td>
     </tr>
     <tr>
-        <td>teamid</td>
-        <td>Depreciated: Replaced by Directory Sync / SCIM</td>
+        <td align="center">teamid</td>
+        <td align="center">Depreciated: Replaced by Directory Sync / SCIM</td>
     </tr>
 </table>
 
