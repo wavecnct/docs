@@ -5,7 +5,7 @@
 
 ## ADD custom claims to your SSO Integration
 1. On your Azure application, go to **Single Sign-On** page, then click **Edit** under the **Attributes & Claims** section.
-<br><br><img src="https://github.com/wavecnct/poc-doc/tree/main/public/Edit-Attributes&Claims.png" alt="Edit-Attributes&Claims"><br>
+<br><br><img src="https://github.com/wavecnct/poc-doc/blob/main/public/Edit-Attributes&Claims.png" alt="Edit-Attributes&Claims"><br>
 
 2. Click on **Add New Claim**, then add one the following available fields as the name of the claim:<br><br>
     <table>
@@ -64,7 +64,7 @@
     </table>
 
 3. For **Source Attribute**, enter one of the fields available in your Intra ID.
-<br><br><img src="https://github.com/wavecnct/poc-doc/tree/main/public/source_attribute.png" alt="Source Attribute"><br>
+<br><br><img src="https://github.com/wavecnct/poc-doc/blob/main/public/source_attribute.png" alt="Source Attribute"><br>
 
 ## Support
 If you need further assistance during any stage of the SSO integraion process, pleade no not hesistate to reach out to our support team at <a href="support-dev@wavecnct.com">support-dev@wavecnct.com</a>
