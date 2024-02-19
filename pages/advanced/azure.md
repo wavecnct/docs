@@ -15,18 +15,18 @@
 
 4. Enter the **Identofier (Entity ID)** (e.g. wave-connect)
 
-![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/identifier(entity_id).png)
+![indentifier(entity id)](https://github.com/wavecnct/poc-doc/blob/main/.github/identifier(entity_id).png)
 
 5. Add <span style="background-color: #6F6F6F">https://app.wabecnct.com/__/auth/handler</span> for the Reply URL.
 *Note: Currently, only service-provider (SP) initiated SAML is available.
 
-![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/reply_url.png)
+![reply-url](https://github.com/wavecnct/poc-doc/blob/main/.github/reply_url.png)
 
 6. **Recommended**: In the Attributes & Claims section, change the Unique User Identifier to email address.
 
-![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/attributes&claims.png)
+![attributes & Claims](https://github.com/wavecnct/poc-doc/blob/main/.github/attributes&claims.png)
 
-![Create your own application](https://github.com/wavecnct/poc-doc/blob/main/.github/manage_claims.png)<br>
+![manage_claims](https://github.com/wavecnct/poc-doc/blob/main/.github/manage_claims.png)<br>
 
 <span style="background-color: #FF0000; display: block; max-width=100%;"> **Note**: Don't forget to assign users and /or groups to the application.</span>
 <div style="page-break-after: always;"></div>
@@ -34,10 +34,25 @@
 ## Configure SAML on Wave for Teams
 
 1. Open <a href="https://teams.wavecnct.com/"> Wave for teams</a> and go to the Organization Settings. Now, open *Configure SAML* form.
+
+![Configure_SAML_Form](https://github.com/wavecnct/poc-doc/blob/main/.github/Configure_SAML_Form.png)<br>
+
 2. Entity ID maps to Azure AD Identifier.
+
+![Entity_ID](https://github.com/wavecnct/poc-doc/blob/main/.github/Entity_ID.png)<br>
+
 3. SSO URL maps to Azure Login URL.
+
+![SSO_URL](https://github.com/wavecnct/poc-doc/blob/main/.github/SSO_URL.png)<br>
+
 4. x509 Certificate maps to Azuer Certificate (Base64).
+
+![x509_Certificate](https://github.com/wavecnct/poc-doc/blob/main/.github/x509_Certificate.png)<br>
+
 5. Service Provider Entity ID maps tp Azure *Identifier (Entity ID)*.
+
+![Service_Provider_Entity_ID](https://github.com/wavecnct/poc-doc/blob/main/.github/SP_Entity_ID.png)<br>
+
 
 <div style="page-break-after: always;"></div>
 
@@ -48,7 +63,10 @@ How SSO works:
     <li>The user can use either of these methods:
         <ol style="list-style-type: upper-alpha">    
             <li>Member attempt tp log in to Wave Connect (Wave) by entering his/her email address</li>
-            <li>The user attempts to login by clicking on the SSO button and entering the organization username (This can be found in your organization settings).</li>
+            <li>The user attempts to login by clicking on the SSO button and entering the organization username (This can be found in your organization settings).
+            
+            ![Organization_Username](https://github.com/wavecnct/poc-doc/blob/main/.github/Org_Username.png)<br>
+            </li>
             </ol>
     </li>
     <li>Wave sends a request to the identity provider.</li>
