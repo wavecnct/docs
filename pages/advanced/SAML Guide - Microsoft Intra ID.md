@@ -1,4 +1,4 @@
-<img src="https://github.com/wavecnct/poc-doc/blob/main/public/logo.png" alt="Company Logo" width="200"><br><br>
+<img src="https://github.com/wavecnct/poc-doc/blob/main/public/logo.png" alt="Company Logo" width="200"><br>
 
 # SAML Guide - Microsoft Intra ID
 ##### *Last updated: Sept 21<sup>st</sup>, 2023* 
