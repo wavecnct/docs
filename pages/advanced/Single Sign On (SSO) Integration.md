@@ -1,4 +1,4 @@
-<img src="https://github.com/wavecnct/poc-doc/blob/main/.github/logo.png" alt="Company Logo" width="200"><br>
+<img src="https://github.com/wavecnct/poc-doc/blob/main/.github/logo.png" alt="Company Logo" width="200"><br><br>
 
 # Single Sign-ON (SSO) Integration Documentation
 
@@ -29,6 +29,7 @@ Our SSO integration supports **SAML** and **OpenID Connect (OIDC)**
     <li>The identity provider sends a respnse to Wave to verify the member's identity.</li>
     <li>Wave Accepts the response and logs the member into their Wave account.</li>
 </ol><br>
+
 ***Note:** Email aliases do not work with SAML SSO.*<br>
 
 ## Confirming Domains
@@ -40,19 +41,17 @@ You’ll need to contact support to make a change to the list of authorized doma
 
 To integrate with our system, we will need the following:
 
-<ol>
-    <li>**The list of authorized domains:** e.g. _acme.org_, _acmecorp.org_, or _dev.acme.org_</li>
-    <li>**The provider's Entity ID**: A URL that identifies the identity provider.</li>
-    <li>**The provider's SSO URL**: The URL of the identity provider's sign-in page.</li>
-    <li>**The service provider Entity ID**: A URL that identifies the service provider.</li>
-    <li>**The provider's public key certificate**: The certificate used to validate tokens signed by the identity provider.</li>
-</ol>
+1. **The list of authorized domains:** e.g. <u>acme.org</u>, <u>acmecorp.org</u>, or <u>dev.acme.org</u>
+2. **The provider's Entity ID**: A URL that identifies the identity provider.
+3. **The provider's SSO URL**: The URL of the identity provider's sign-in page.
+4. **The service provider Entity ID**: A URL that identifies the service provider.
+5. **The provider's public key certificate**: The certificate used to validate tokens signed by the identity provider.
 
 ## SAML - What You Will Need
 
 To link our authentication system to your SSO, you will need to add the following call-back URL into your SAML application configuration:
 
-    - <a href="https://app.wavecnct.com/__/auth/handler">https://app.wavecnct.com/__/auth/handler</a>
+\- <a href="https://app.wavecnct.com/__/auth/handler">https://app.wavecnct.com/__/auth/handler</a>
 
 ## Support
 If you need further assistance during any stage of the SSO integraion process, pleade no not hesistate to reach out to our support team at <a href="support-dev@wavecnct.com">support-dev@wavecnct.com</a>
