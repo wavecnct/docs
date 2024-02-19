@@ -7,9 +7,7 @@
 1. On your Azure application, go to **Single Sign-On** page, then click **Edit** under the **Attributes & Claims** section.
 <br><br><img src="https://github.com/wavecnct/poc-doc/blob/main/.github/Edit-Attributes&Claims.png" alt="Edit-Attributes&Claims"><br>
 
-2. Click on **Add New Claim**, then add one the following available fields as the name of the claim:
-
-<table>
+2. Click on **Add New Claim**, then add one the following available fields as the name of the claim:<br><br><table>
     <tr>
         <th>Claim Name</th>
         <th>Description</th>
