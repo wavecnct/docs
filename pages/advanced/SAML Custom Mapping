@@ -63,7 +63,7 @@ How SSO works:
     <li>The user can use either of these methods:
         <ol style="list-style-type: upper-alpha">    
             <li>Member attempt tp log in to Wave Connect (Wave) by entering his/her email address</li>
-            <li>The user attempts to login by clicking on the SSO button and entering the organization username (This can be found and configured under your organization settings on Teams by Wave Connect).
+            <li>The user attempts to login by clicking on the SSO button and entering the organization username (This can be found in your organization settings).
             
 ![Organization_Username](https://github.com/wavecnct/poc-doc/blob/main/.github/Org_Username.png)<br>
             </li>
