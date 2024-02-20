@@ -41,7 +41,7 @@
 4. x509 Certificate maps to Azuer Certificate (Base64).
 <br><br>![x509_Certificate](/x509-certificate.png)<br>
 
-5. Service Provider Entity ID maps tp Azure *Identifier (Entity ID)*.
+5. Service Provider Entity ID maps to Azure *Identifier (Entity ID)*.
 <br><br>![Service_Provider_Entity_ID](/sp-entity-id.png)<br>
 
 
