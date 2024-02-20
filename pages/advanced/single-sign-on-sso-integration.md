@@ -1,4 +1,4 @@
-<img src="https://github.com/wavecnct/poc-doc/blob/main/public/logo.png" alt="Company Logo" width="200"><br><br>
+<img src="/logo.png" alt="Company Logo" width="200"><br><br>
 
 # Single Sign-ON (SSO) Integration Documentation
 ##### *Last updated: August 4<sup>th</sup>, 2023* 
@@ -22,7 +22,7 @@ Our SSO integration supports **SAML** and **OpenID Connect (OIDC)**
         <ol list-style-type: "upper-alpha">
             <li>Member attempts to login to Wave Connect (Wave) by entering their email address.</li>
             <li>The user attempts to login by clicking on the SSO buttin and entering the organization username (This can be found and configured under your organization settings on Teams by Wave Connect)<br><br>
-            <img src="https://github.com/wavecnct/poc-doc/blob/main/public/Org_Username.png" alt="Organization_Username"></li>
+            <img src="/org-username.png" alt="Organization Username"></li>
         </ol><br>
     </li>
     <li>Wave sends a request to the identity provider.</li>
