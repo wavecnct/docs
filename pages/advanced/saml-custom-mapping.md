@@ -1,4 +1,4 @@
-<img src="https://github.com/wavecnct/poc-doc/blob/main/public/logo.png" alt="Company Logo" width="200"><br>
+<img src="/logo.png" alt="Company Logo" width="200"><br>
 
 # SAML Custom Mapping Guide - Intra ID
 
