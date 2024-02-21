@@ -73,8 +73,8 @@ How SSO works:
 
 <ol>
     <li>The user can use either of these methods:
-        <ol list-style-type: "upper-alpha">    
-            <li>Member attempt tp log in to Wave Connect (Wave) by entering his/her email address</li>
+        <ol style="list-style-type: upper-alpha;">    
+            <li>Member attempt to log in to Wave Connect (Wave) by entering his/her email address</li>
             <li>The user attempts to login by clicking on the SSO button and entering the organization username (This can be found and configured under your organization settings on Teams by Wave Connect).<br><br>
             <img src="/org-username.png" alt="Organization Username"></li>
         </ol><br>
@@ -88,4 +88,4 @@ How SSO works:
 ***Note**: Email aliases do not work with SAML SSO.*
 
 ## Support
-If you need further assistance during any stage of the SSO integraion process, pleade no not hesistate to reach out to our support team at <a href="support-dev@wavecnct.com">support-dev@wavecnct.com</a>
+If you need further assistance during any stage of the SSO integration process, please do not hesitate to reach out to our support team at <a href="support-dev@wavecnct.com">support-dev@wavecnct.com</a>

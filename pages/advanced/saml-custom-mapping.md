@@ -53,7 +53,7 @@
     </tr>
     <tr>
         <td>workemail</td>
-        <td>Wrok Email Address</td>
+        <td>Work Email Address</td>
     </tr>
     <tr>
         <td>company</td>
@@ -70,4 +70,4 @@
 
 ## Support
 
-If you need further assistance during any stage of the SSO integraion process, pleade no not hesistate to reach out to our support team at <a href="support-dev@wavecnct.com">support-dev@wavecnct.com</a>
+If you need further assistance during any stage of the SSO integration process, please do not hesitate to reach out to our support team at <a href="support-dev@wavecnct.com">support-dev@wavecnct.com</a>
