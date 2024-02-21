@@ -3,25 +3,36 @@
 # SAML Guide - Microsoft Intra ID
 ##### *Last updated: Sept 21<sup>st</sup>, 2023* 
 
-## Create a new Application in Azure
+## Create a New Application in Azure
 
 1. To create a new application in Azure, go to **Identity > Application > Enterprise Application > New Application**
 2. Click on **Create your own application.** Next, enter the name of the application (e.g. Wave Connect) and choose *"Integrate any other application you don't find in the gallery".*
-<br><br>![Create your own application](/create_app.png)
+<br><br>
+
+![Create your own application](/create_app.png)
 
 3. Now click on the **Single Sign-On tab** and click **SAML**. The form below should appear.
-<br><br>![SSO Form](/sso-form.png)
+<br><br>
 
-4. Enter the **Identofier (Entity ID)** (e.g. wave-connect)
-<br><br>![indentifier(entity id)](/entity-id-map.png)
+![SSO Form](/sso-form.png)
+
+4. Enter the **Identifier (Entity ID)** (e.g. wave-connect)
+<br><br>
+
+![indentifier(entity id)](/entity-id-map.png)
 
 5. Add <span style="background-color: #6F6F6F">https://app.wabecnct.com/__/auth/handler</span> for the Reply URL.
 *Note: Currently, only service-provider (SP) initiated SAML is available.
 <br><br>![reply-url](/reply-url.png)
 
 6. **Recommended**: In the Attributes & Claims section, change the Unique User Identifier to email address.
-<br><br>![attributes & Claims](/attributes-claims.png)
-<br><br>![manage_claims](/manage-claims.png)<br>
+<br><br>
+
+![attributes & Claims](/attributes-claims.png)
+
+<br><br>
+
+![manage_claims](/manage-claims.png)<br>
 
 <span style="background-color: #FFE598; display: block; max-width=100%;"> **Note**: Don't forget to assign users and /or groups to the application.</span>
 
@@ -30,19 +41,29 @@
 ## Configure SAML on Wave for Teams
 
 1. Open <a href="https://teams.wavecnct.com/"> Wave for teams</a> and go to the Organization Settings. Now, open *Configure SAML* form.
-<br><br>![Configure_SAML_Form](/configure-saml-form.png)<br>
+<br><br>
+
+![Configure_SAML_Form](/configure-saml-form.png)<br>
 
 2. Entity ID maps to Azure AD Identifier.
-<br><br>![Entity_ID](/entity-id.png)<br>
+<br><br>
+
+![Entity_ID](/entity-id.png)<br>
 
 3. SSO URL maps to Azure Login URL.
-<br><br>![SSO_URL](/sso-url.png)<br>
+<br><br>
+
+![SSO_URL](/entity-id.png)<br>
 
 4. x509 Certificate maps to Azuer Certificate (Base64).
-<br><br>![x509_Certificate](/x509-certificate.png)<br>
+<br><br>
+
+![x509_Certificate](/x509-certificate.png)<br>
 
 5. Service Provider Entity ID maps to Azure *Identifier (Entity ID)*.
-<br><br>![Service_Provider_Entity_ID](/sp-entity-id.png)<br>
+<br><br>
+
+![Service_Provider_Entity_ID](/sp-entity-id.png)<br>
 
 
 <div style="page-break-after: always;"></div>
@@ -55,7 +76,7 @@ How SSO works:
         <ol list-style-type: "upper-alpha">    
             <li>Member attempt tp log in to Wave Connect (Wave) by entering his/her email address</li>
             <li>The user attempts to login by clicking on the SSO button and entering the organization username (This can be found and configured under your organization settings on Teams by Wave Connect).<br><br>
-            <img src="/org_username.png" alt="Organization_Username"></li>
+            <img src="/org-username.png" alt="Organization Username"></li>
         </ol><br>
     </li>
     <li>Wave sends a request to the identity provider.</li>
@@ -68,7 +89,3 @@ How SSO works:
 
 ## Support
 If you need further assistance during any stage of the SSO integraion process, pleade no not hesistate to reach out to our support team at <a href="support-dev@wavecnct.com">support-dev@wavecnct.com</a>
-
-
-
-
