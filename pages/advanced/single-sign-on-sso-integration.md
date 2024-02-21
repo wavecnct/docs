@@ -1,7 +1,8 @@
 <img src="/logo.png" alt="Company Logo" width="200"><br><br>
 
 # Single Sign-ON (SSO) Integration Documentation
-##### *Last updated: August 4<sup>th</sup>, 2023* 
+
+*Last updated: August 4<sup>th</sup>, 2023* 
 
 ## Introduction
 

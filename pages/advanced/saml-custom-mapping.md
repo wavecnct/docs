@@ -2,7 +2,7 @@
 
 # SAML Custom Mapping Guide - Intra ID
 
-##### _Last updated: November 13<sup>th</sup>, 2023_
+*Last updated: November 13<sup>th</sup>, 2023*
 
 ## ADD custom claims to your SSO Integration
 

@@ -1,7 +1,8 @@
 <img src="/logo.png" alt="Company Logo" width="200"><br>
 
 # SAML Guide - Microsoft Intra ID
-##### *Last updated: Sept 21<sup>st</sup>, 2023* 
+
+*Last updated: Sept 21<sup>st</sup>, 2023* 
 
 ## Create a New Application in Azure
 
