@@ -32,7 +32,7 @@ Our SSO integration supports **SAML** and **OpenID Connect (OIDC)**
     <li>Wave Accept the response and logs the member into their Wave account.</li>
 </ol><br>
 
-***Note:** Email aliases do not work with SAML SSO.*<br>
+***Note:** <span style="color: #434343; ">Email aliases do not work with SAML SSO.*</span>
 
 ## Confirming Domains
 

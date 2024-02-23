@@ -86,7 +86,7 @@ How SSO works:
     <li>Wave accepts the response and logs the member into their Wave account.</li>
 </ol>
 
-***Note**: Email aliases do not work with SAML SSO.*
+***Note**: <span style="color: #434343; ">Email aliases do not work with SAML SSO.*</span>
 
 ## Support
 If you need further assistance during any stage of the SSO integration process, please do not hesitate to reach out to our support team at <a href="support-dev@wavecnct.com">support-dev@wavecnct.com</a>
