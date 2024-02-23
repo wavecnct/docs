@@ -1,4 +1,4 @@
-<img src="/logo.png" alt="Company Logo" width="200"><br><br>
+<img src="/logo.png" alt="Company Logo" width="200"><br>
 
 # Single Sign-ON (SSO) Integration Documentation
 

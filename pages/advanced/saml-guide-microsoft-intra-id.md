@@ -10,7 +10,7 @@
 2. Click on **Create your own application.** Next, enter the name of the application (e.g. Wave Connect) and choose *"Integrate any other application you don't find in the gallery".*
 <br><br>
 
-![Create your own application](/create_app.png)
+![Create your own application](/create-app.png)
 
 3. Now click on the **Single Sign-On tab** and click **SAML**. The form below should appear.
 <br><br>
@@ -22,7 +22,7 @@
 
 ![indentifier(entity id)](/entity-id-map.png)
 
-5. Add <span style="background-color: #6F6F6F">https://app.wabecnct.com/__/auth/handler</span> for the Reply URL.
+5. Add <span style="background-color: #EFEFEF; ">https://app.wabecnct.com/__/auth/handler</span> for the Reply URL.
 *Note: Currently, only service-provider (SP) initiated SAML is available.
 <br><br>![reply-url](/reply-url.png)
 
@@ -35,7 +35,7 @@
 
 ![manage_claims](/manage-claims.png)<br>
 
-<span style="background-color: #FFE598; display: block; max-width=100%;"> **Note**: Don't forget to assign users and /or groups to the application.</span>
+<span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> **Note**: Don't forget to assign users and /or groups to the application.</span>
 
 <div style="page-break-after: always;"></div>
 
