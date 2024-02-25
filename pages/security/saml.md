@@ -1,20 +1,12 @@
-<img src="/logo.png" alt="Company Logo" width="200"><br>
+# SAML Single Sign-On
 
-# Single Sign-ON (SSO) Integration Documentation
-
-*Last updated: August 4<sup>th</sup>, 2023* 
-
-## Introduction
+**Discover the steps to configure SAML Single Sign-On (SSO) for your organization.**
 
 SSO offers a user-friendly approach to log into multiple applications or platforms using a single set of credentials. This document outlines our company's guidlines for SSO integration.
 
-## WHY SSO?
+To enable this feature, you must have a teams account and hold the owner role.
 
-SSO helps reduce password fatigue from different username and password combinations, reduces time spent re-entering passwords for the same identity, and reduces IT costs due to lower number of IT help desk calls about passwords.
-
-## SSO Standards Supported
-
-Our SSO integration supports **SAML** and **OpenID Connect (OIDC)**
+Once enabled, All members will be able to log in using your identity provider. Additionally, any new users opting for SAML authentication will seamlessly integrate into your organization, streamlining the onboarding process.
 
 ## How It Works
 
@@ -32,12 +24,12 @@ Our SSO integration supports **SAML** and **OpenID Connect (OIDC)**
     <li>Wave Accept the response and logs the member into their Wave account.</li>
 </ol><br>
 
-***Note:** <span style="color: #434343; ">Email aliases do not work with SAML SSO.*</span>
+**\*Note:** <span style="color: #434343; ">Email aliases do not work with SAML SSO.\*</span>
 
 ## Confirming Domains
 
-Organizations can have more than one domain, including subdomains. Organization admins can request to add or remove domains to their organization at any time. 
-You will need to contact support to make a change to the list of authorized domains.  
+Organizations can have more than one domain, including subdomains. Organization admins can request to add or remove domains to their organization at any time.
+You will need to contact support to make a change to the list of authorized domains.
 
 ## SAML - What We Need
 
@@ -53,11 +45,8 @@ To integrate with our system, we will need the following:
 
 To link our authentication system to your SSO, you will need to add the following call-back URL into your SAML application configuration:
 
-\- <a href="https://app.wavecnct.com/__/auth/handler">https://app.wavecnct.com/__/auth/handler</a>
+**https://app.wavecnct.com/\_\_/auth/handler**
 
-## Support
-If you need further assistance during any stage of the SSO integration process, please do not hesitate to reach out to our support team at <a href="support-dev@wavecnct.com">support-dev@wavecnct.com</a>
+# Enforcing SAML
 
-
-
-
+# Use the custom login page
