@@ -8,7 +8,7 @@ Zapier is an excellent automation tool that removes the hassle of performing rep
 ## Setting Up Your First Zap
 1. Login to your Wave user account at: <a href="https://app.wavecnct.com/login"> Sign into Wave</a>
 2. Under Settings, click on CRM Integrations.
-3. Click on '**Connect**' button in front of Zapier.<br><br>
+3. Click on **Connect** button in front of Zapier.<br><br>
 
 <img src="/connect-zapier.png" alt="Connect Zapier CRM" width="500px"><br>
 
@@ -43,7 +43,7 @@ Zapier is an excellent automation tool that removes the hassle of performing rep
 
 5. Click ‘**Test trigger**’ if you wish to test your trigger with a contact already in your Wave contact’s list. Select a contact that you wish to perform your test with and click on ‘**Continue with selected record**.’<br><br>
 
-<img src="/test-connection.png" alt="Test Trigger Connection" height="450px"><br>
+<img src="/test-connection.png" alt="Test Trigger Connection" height="300px"><br>
 
 This concludes the setting up process for the trigger event and leads us to the action event.
 
@@ -76,6 +76,7 @@ This concludes the setting up process for the trigger event and leads us to the 
     <img src="/select-spreadsheet.png" alt="Choose Your Spreadsheet" width="500px"><br>
 
     \***Note**: the sheet you select for this step should already exist in your Google Sheets account (visit <a href="https://support.google.com/docs/answer/6000292?hl=en&co=GENIE.Platform%3DDesktop#:~:text=Open%20the%20Sheets%20home%20screen,and%20open%20your%20new%20spreadsheet"> How to Create a Spreadsheet </a> to learn how to create a new spreadsheet on Google Sheets).
+
     C. Select a sheet from your spreadsheet that you want your information transcribed to.<br><br>
 
     <img src="/select-sheet.png" alt="Choose Desired Sheet" width="500px"><br>
@@ -88,7 +89,7 @@ This concludes the setting up process for the trigger event and leads us to the 
 
 5. Map '*name*' to '*first name*,' '*surname*' to '*last name*,' '*phone number*' to '*phone*,' '*email*' to '*email*,' and '*location*' to '*city*,' respectively. Once each header is matched with its corresponding info from Wave, click on **Continue**. You will then have the option to test your Zap or skip it this step altogther.<br><br>
 
-<img src="/contact-info-mapping.png" alt="Mapping Contact Information" height="450px"><br>
+<img src="/contact-info-mapping.png" alt="Mapping Contact Information" height="300px"><br>
 
 \***Note**: If you choose to test your Zap, Zapier will append Wave contact information directly to your spreadsheet. You can review the output in your Google Sheets spreadsheet. If unsatisfied, you can make changes or add additional steps as needed.\*
 
