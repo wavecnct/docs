@@ -25,27 +25,27 @@ Zapier is an excellent automation tool that removes the hassle of performing rep
     A. Trigger: an event that starts the automation process (e.g. new contact creation inside the Wave app).
 
     B. Action: the automated process performed once the trigger occurs inside the wave app (i.e. when trigger happens, action follows).
-<br><br>
-<img src="/zap-layout.png" alt="Outline Of A Zap" width="500px"><br>
+    <br><br>
+    <img src="/zap-layout.png" alt="Outline Of A Zap" width="500px"><br>
 
 ## Setting Up Trigger
 
 1. Click on the trigger banner.
 2. Under '**App & event**', you can select the event that triggers the automation process, including new contact creation, deletion, and information updates. In this guide, we focus solely on new contact creation. Selecting '**New Contact**' ensures any new contact created in your Wave app initiates this Zapier process. To do so, map '**\* Event (required)**' to ‘**New Contact**’ and then '**Continue**'.<br><br>
 
-<img src="/event-new-contact.png" alt="New Contact Event" width="500px"><br>
+    <img src="/event-new-contact.png" alt="New Contact Event" width="500px"><br>
 
 3. Authenticate your Wave user account on Zapier by clicking on the sign-in button.<br><br>
 
-<img src="/sign-into-wave.png" alt="Sign Into Wave" width="500px"><br>
+    <img src="/sign-into-wave.png" alt="Sign Into Wave" width="500px"><br>
 
 4.  Enter your API key from *step 4* of <a href="#setting-up-your-first-zap">*Setting Up Your First Zap*</a>. Click on ‘**Yes, Connect to Wave Connect**.’ Afterwards, verify your Wave user account credentials, displayed in the designated area, and press '**Continue**'.<br><br>
 
-<img src="/enter-api-key.png" alt="Enter API Key" width="500px"><br>
+    <img src="/enter-api-key.png" alt="Enter API Key" width="500px"><br>
 
 5. Click ‘**Test trigger**’ if you wish to test your trigger with a contact already in your Wave contact’s list. Select a contact that you wish to perform your test with and click on ‘**Continue with selected record**.’<br><br>
 
-<img src="/test-connection.png" alt="Test Trigger Connection" width="300px"><br>
+    <img src="/test-connection.png" alt="Test Trigger Connection" width="300px"><br>
 
 This concludes the setting up process for the trigger event and leads us to the action event.
 
@@ -53,19 +53,19 @@ This concludes the setting up process for the trigger event and leads us to the 
 
 1. Find the action banner below the trigger banner. After clicking on the banner, you will choose among various apps, each offering various tasks and services. For this demo, select '**Google Sheets**' app to track newly created contacts.<br><br>
 
-<img src="/select-google-sheets.png" alt="Choose Google Sheets" width="500px"><br>
+    <img src="/select-google-sheets.png" alt="Choose Google Sheets" width="500px"><br>
 
 \***Note**: If the action banner does not exist in your Zap outline, you can add it by clicking on the plus icon below the trigger banner.\*<br><br>
 
-<img src="/add-action-banner.png" alt="Add Action Banner" width="500px"><br>
+    <img src="/add-action-banner.png" alt="Add Action Banner" width="500px"><br>
 
 \***Note**: If you cannot find Google Sheets, you can search for it in the search bar at the top of the page.\*<br><br>
 
-<img src="/search-google-sheets.png" alt="Seach For Google Sheets" width="500px"><br>
+    <img src="/search-google-sheets.png" alt="Seach For Google Sheets" width="500px"><br>
 
 2. Map ‘**\* Event**’ to ‘**Create Spreadsheet Row**’ and press '**Continue**.'<br><br>
 
-<img src="/create-spreadsheet-row.png" alt="Create Spreadsheet Row" width="500px"><br>
+    <img src="/create-spreadsheet-row.png" alt="Create Spreadsheet Row" width="500px"><br>
 
 3. Sign-in and authenticate your Google account then '**Continue**'.
 4. Under the Action tab:<br>
@@ -91,7 +91,7 @@ This concludes the setting up process for the trigger event and leads us to the 
 
 5. Map '*name*' to '*first name*,' '*surname*' to '*last name*,' '*phone number*' to '*phone*,' '*email*' to '*email*,' and '*location*' to '*city*,' respectively. Once each header is matched with its corresponding info from Wave, click on '**Continue**'. You will then have the option to test your Zap or skip it this step altogther.<br><br>
 
-<img src="/contact-info-mapping.png" alt="Mapping Contact Information" width="300px"><br>
+    <img src="/contact-info-mapping.png" alt="Mapping Contact Information" width="300px"><br>
 
 \***Note**: If you choose to test your Zap, Zapier will append Wave contact information directly to your spreadsheet. You can review the output in your Google Sheets spreadsheet. If unsatisfied, you can make changes or add additional steps as needed.\*
 
