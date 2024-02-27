@@ -23,7 +23,7 @@ Zapier is an excellent automation tool that removes the hassle of performing rep
 6. Each Zap is made of two separate events:
 
     A. Trigger: an event that starts the automation process (e.g. new contact creation inside the Wave app).
-    
+
     B. Action: the automated process performed once the trigger occurs inside the wave app (i.e. when trigger happens, action follows).
 <br><br>
 <img src="/zap-layout.png" alt="Outline Of A Zap" width="500px"><br>
@@ -45,7 +45,7 @@ Zapier is an excellent automation tool that removes the hassle of performing rep
 
 5. Click ‘**Test trigger**’ if you wish to test your trigger with a contact already in your Wave contact’s list. Select a contact that you wish to perform your test with and click on ‘**Continue with selected record**.’<br><br>
 
-<img src="/test-connection.png" alt="Test Trigger Connection" height="300px"><br>
+<img src="/test-connection.png" alt="Test Trigger Connection" width="300px"><br>
 
 This concludes the setting up process for the trigger event and leads us to the action event.
 
@@ -81,9 +81,9 @@ This concludes the setting up process for the trigger event and leads us to the 
 
     C. Select a sheet from your spreadsheet that you want your information transcribed to.<br><br>
 
-    <img src="/select-sheet.png" alt="Choose Desired Sheet" width="500px"><br>
+    <img src="/select-sheet.png" alt="Choose Desired Sheet" width="300px"><br>
 
-    <span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> **Note**: Zapier uses the content in the first row of your spreadsheet to map contact information from Wave to the columns on your spreadsheet. We recommend choosing appropriate titles in the first row of your spreadsheet (e.g. first name, last name, etc.). </span>
+    <span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> **Note**: Zapier uses the content in the first row of your spreadsheet to map contact information from Wave to the columns on your spreadsheet. We recommend choosing appropriate titles in the first row of your spreadsheet (e.g. first name, last name, etc.) </span>
 
     D. If your sheet is empty, you will receive an error message from Zapier. To circumvent, add headers to the first row of your document and press ‘Refresh Fields’ to load headers from your document. This should display corresponding fields from each cell in the first row of your spreadsheet.<br><br>
 
@@ -91,7 +91,7 @@ This concludes the setting up process for the trigger event and leads us to the 
 
 5. Map '*name*' to '*first name*,' '*surname*' to '*last name*,' '*phone number*' to '*phone*,' '*email*' to '*email*,' and '*location*' to '*city*,' respectively. Once each header is matched with its corresponding info from Wave, click on '**Continue**'. You will then have the option to test your Zap or skip it this step altogther.<br><br>
 
-<img src="/contact-info-mapping.png" alt="Mapping Contact Information" height="300px"><br>
+<img src="/contact-info-mapping.png" alt="Mapping Contact Information" width="300px"><br>
 
 \***Note**: If you choose to test your Zap, Zapier will append Wave contact information directly to your spreadsheet. You can review the output in your Google Sheets spreadsheet. If unsatisfied, you can make changes or add additional steps as needed.\*
 
@@ -99,7 +99,7 @@ This concludes the setting up process for the trigger event and leads us to the 
 6. After confirming your result, click on '**Publish**' to finalize your Zap. Once you publish your Zap, Zapier will append contact information for all contacts on your Wave's contact list to your spreadsheet.
 
 
-<span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> **Note**: to avoid redundancy and duplicates in your spreadsheet, delete test entries before publishing your Zap. </span>
+<span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> **Note**: to avoid duplicates in your spreadsheet, delete test entries before publishing your Zap. </span>
 
 7. Congratulations 🎉, you just finished configuring and publishing your first Zap! You may now add multiple Zaps with different triggers for contact deletion or information updates as needed by your requirements.
 
