@@ -11,6 +11,7 @@ Zapier is an excellent automation tool that removes the hassle of performing rep
 3. Click on '**Connect**' button in front of Zapier.
 
 ![Connect Zapier CRM](/connect-zapier.png)
+<img src="/connect-zapier.png" alt="Connect Zapier CRM" width="500px">
 
 4. Copy your API key to your clipboard by clicking on the copy icon (we will use this key in later steps to create a link between Zapier and Wave), and click on '**Continue**'. A new tab, directing you to the zapier website, should open.
 
