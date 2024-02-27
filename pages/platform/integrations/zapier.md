@@ -55,11 +55,11 @@ This concludes the setting up process for the trigger event and leads us to the 
 
     <img src="/select-google-sheets.png" alt="Choose Google Sheets" width="500px"><br>
 
-\*\*\***Note**: If the action banner does not exist in your Zap outline, you can add it by clicking on the plus icon below the trigger banner.\*\*\*<br><br>
+\*\*\* **Note**: If the action banner does not exist in your Zap outline, you can add it by clicking on the plus icon below the trigger banner. \*\*\*<br><br>
 
 <img src="/add-action-banner.png" alt="Add Action Banner" width="500px"><br>
 
-\*\*\***Note**: If you cannot find Google Sheets, you can search for it in the search bar at the top of the page.\*\*\*<br><br>
+\*\*\* **Note**: If you cannot find Google Sheets, you can search for it in the search bar at the top of the page. \*\*\*<br><br>
 
 <img src="/search-google-sheets.png" alt="Seach For Google Sheets" width="500px"><br>
 
