@@ -53,11 +53,11 @@ This concludes the setting up process for the trigger event and leads us to the 
 
 <img src="/select-google-sheets.png" alt="Choose Google Sheets" width="500px"><br>
 
-<span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> \***Note**: If the action banner does not exist in your Zap outline, you can add it by clicking on the plus icon below the trigger banner.\* </span><br><br>
+<span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> **Note**: If the action banner does not exist in your Zap outline, you can add it by clicking on the plus icon below the trigger banner. </span><br><br>
 
 <img src="/add-action-banner.png" alt="Add Action Banner" width="500px"><br>
 
-<span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> \***Note**: If you cannot find Google Sheets, you can search for it in the search bar at the top of the page.\* </span><br><br>
+<span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> **Note**: If you cannot find Google Sheets, you can search for it in the search bar at the top of the page. </span><br><br>
 
 <img src="/select-google-sheets.png" alt="Choose Google Sheets" width="500px"><br>
 
@@ -75,29 +75,29 @@ This concludes the setting up process for the trigger event and leads us to the 
 
     <img src="/select-spreadsheet.png" alt="Choose Your Spreadsheet" width="500px"><br>
 
-    <span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> \***Note**: the sheet you select for this step should already exist in your Google Sheets account (visit <a href="https://support.google.com/docs/answer/6000292?hl=en&co=GENIE.Platform%3DDesktop#:~:text=Open%20the%20Sheets%20home%20screen,and%20open%20your%20new%20spreadsheet"> How to Create a Spreadsheet </a> to learn how to create a new spreadsheet on Google Sheets).</span>
+    <span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> **Note**: the sheet you select for this step should already exist in your Google Sheets account (visit <a href="https://support.google.com/docs/answer/6000292?hl=en&co=GENIE.Platform%3DDesktop#:~:text=Open%20the%20Sheets%20home%20screen,and%20open%20your%20new%20spreadsheet"> How to Create a Spreadsheet </a> to learn how to create a new spreadsheet on Google Sheets).</span>
 
     C. Select a sheet from your spreadsheet that you want your information transcribed to.<br><br>
 
     <img src="/select-sheet.png" alt="Choose Desired Sheet" width="500px"><br>
 
-    <span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> \***Note**: Zapier uses the content in the first row of your spreadsheet to map contact information from Wave to the columns on your spreadsheet. We recommend choosing appropriate titles in the first row of your spreadsheet (e.g. first name, last name, etc.).\* </span>
+    <span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> **Note**: Zapier uses the content in the first row of your spreadsheet to map contact information from Wave to the columns on your spreadsheet. We recommend choosing appropriate titles in the first row of your spreadsheet (e.g. first name, last name, etc.). </span>
 
     D. If your sheet is empty, you will receive an error message from Zapier. To circumvent, add headers to the first row of your document and press ‘Refresh Fields’ to load headers from your document. This should display corresponding fields from each cell in the first row of your spreadsheet.<br><br>
 
     <img src="/no-header-error.png" alt="Error Associated With Having No Headers in Your Google Sheets Document" width="500px"><br>
 
-5. Map '*name*' to '*first name*,' '*surname*' to '*last name*,' '*phone number*' to '*phone*,' '*email*' to '*email*,' and '*location*' to '*city*,' respectively. Once each header is matched with its corresponding info from Wave, click on **Continue**. You will then have the option to test your Zap or skip it this step altogther.<br><br>
+5. Map '*name*' to '*first name*,' '*surname*' to '*last name*,' '*phone number*' to '*phone*,' '*email*' to '*email*,' and '*location*' to '*city*,' respectively. Once each header is matched with its corresponding info from Wave, click on '**Continue**'. You will then have the option to test your Zap or skip it this step altogther.<br><br>
 
 <img src="/contact-info-mapping.png" alt="Mapping Contact Information" height="300px"><br>
 
 \***Note**: If you choose to test your Zap, Zapier will append Wave contact information directly to your spreadsheet. You can review the output in your Google Sheets spreadsheet. If unsatisfied, you can make changes or add additional steps as needed.\*
 
 
-6. After confirming your result, click on **Publish** to finalize your Zap. Once you publish your Zap, Zapier will append contact information for all contacts on your Wave's contact list to your spreadsheet.
+6. After confirming your result, click on '**Publish**' to finalize your Zap. Once you publish your Zap, Zapier will append contact information for all contacts on your Wave's contact list to your spreadsheet.
 
 
-\***Note**: to avoid redundancy and duplicates in your spreadsheet, delete test entries before publishing your Zap.\*
+<span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> **Note**: to avoid redundancy and duplicates in your spreadsheet, delete test entries before publishing your Zap. </span>
 
 7. Congratulations 🎉, you just finished configuring and publishing your first Zap! You may now add multiple Zaps with different triggers for contact deletion or information updates as needed by your requirements.
 
