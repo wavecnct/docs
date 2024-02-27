@@ -37,7 +37,7 @@ Zapier is an excellent automation tool that removes the hassle of performing rep
 
 <img src="/sign-into-wave.png" alt="Sign Into Wave" width="500px"><br>
 
-4.  Enter your API key from *step 4* of '*setting up your first Zap*'. Click on ‘**Yes, Connect to Wave Connect**.’Afterwards, verify your Wave user account credentials, displayed in the designated area, and press '**Continue**'.<br><br>
+4.  Enter your API key from *step 4* of <a href="#setting-up-your-first-zap">'*setting up your first Zap*'</a>. Click on ‘**Yes, Connect to Wave Connect**.’Afterwards, verify your Wave user account credentials, displayed in the designated area, and press '**Continue**'.<br><br>
 
 <img src="/enter-api-key.png" alt="Enter API Key" width="500px"><br>
 
