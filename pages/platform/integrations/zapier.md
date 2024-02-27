@@ -87,7 +87,7 @@ This concludes the setting up process for the trigger event and leads us to the 
 
     D. If your sheet is empty, you will receive an error message from Zapier. To circumvent, add headers to the first row of your document and press ‘Refresh Fields’ to load headers from your document. This should display corresponding fields from each cell in the first row of your spreadsheet.<br><br>
 
-    <img src="/no-header-error.png" alt="Error Associated With Having No Headers in Your Google Sheets Document" width="500px"><br>
+    <img src="/no-header-error.png" alt="Error Associated With Having No Headers in Your Google Sheets Document" width="300px"><br>
 
 5. Map '*name*' to '*first name*,' '*surname*' to '*last name*,' '*phone number*' to '*phone*,' '*email*' to '*email*,' and '*location*' to '*city*,' respectively. Once each header is matched with its corresponding info from Wave, click on '**Continue**'. You will then have the option to test your Zap or skip it this step altogther.<br><br>
 
