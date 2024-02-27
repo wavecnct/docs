@@ -93,7 +93,7 @@ This concludes the setting up process for the trigger event and leads us to the 
 
     <img src="/contact-info-mapping.png" alt="Mapping Contact Information" width="300px"><br>
 
-\***Note**: If you choose to test your Zap, Zapier will append Wave contact information directly to your spreadsheet. You can review the output in your Google Sheets spreadsheet. If unsatisfied, you can make changes or add additional steps as needed.\*
+\*\*\* **Note**: If you choose to test your Zap, Zapier will append Wave contact information directly to your spreadsheet. You can review the output in your Google Sheets spreadsheet. If unsatisfied, you can make changes or add additional steps as needed. \*\*\*
 
 
 6. After confirming your result, click on '**Publish**' to finalize your Zap. Once you publish your Zap, Zapier will append contact information for all contacts on your Wave's contact list to your spreadsheet.
