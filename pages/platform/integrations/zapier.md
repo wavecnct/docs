@@ -6,7 +6,7 @@ Zapier is an excellent automation tool that removes the hassle of performing rep
 </p>
 
 ## Setting Up Your First Zap
-1. Login to your Wave user account at: <a href="https://app.wavecnct.com/login">Log into Wave</a>
+1. Login to your Wave user account at: <a href="https://app.wavecnct.com/login"> Sign into Wave</a>
 2. Under Settings, click on CRM Integrations.
 3. Click on '**Connect**' button in front of Zapier.
 
@@ -14,7 +14,7 @@ Zapier is an excellent automation tool that removes the hassle of performing rep
 
 4. Copy your API key to your clipboard by clicking on the copy icon (we will use this key in later steps to create a link between Zapier and Wave), and click on '**Continue**'. A new tab, directing you to the zapier website, should open.
 
-<img src="/copy-api-key.png" alt="Copy API Key" max-width="200px">
+<img src="/copy-api-key.png" alt="Copy API Key" width="200px">
 
 5. On the new page, click on the orange, ‘**Connect Wave Connect to 6,000+ apps**’ button. You will be directed to a Zap creation page with a preliminary outline of your Zap.
 
