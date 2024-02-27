@@ -16,11 +16,11 @@ Zapier is an excellent automation tool that removes the hassle of performing rep
 
 <img src="/copy-api-key.png" alt="Copy API Key" width="400px"><br>
 
-5. On the new page, click on the orange, ‘**Connect Wave Connect to 6,000+ apps**’ button. You will be directed to a Zap creation page with a preliminary outline of your Zap.<br><br>
+5. On the new page, click on the orange, ‘**Connect Wave Connect to 6,000+ apps**’ button.<br><br>
 
 <img src="/orange-connect-button.png" alt="Connect Wave to Zapier Apps" width="500px"><br>
 
-6. Each Zap is made of two separate events:
+6. You will be directed to a Zap creation page with a preliminary outline of your Zap. Each Zap is made of two separate events:
 
     A. Trigger: an event that starts the automation process (e.g. new contact creation inside the Wave app).
 
@@ -55,11 +55,11 @@ This concludes the setting up process for the trigger event and leads us to the 
 
 <img src="/select-google-sheets.png" alt="Choose Google Sheets" width="500px"><br>
 
-<span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> **Note**: If the action banner does not exist in your Zap outline, you can add it by clicking on the plus icon below the trigger banner. </span><br><br>
+\***Note**: If the action banner does not exist in your Zap outline, you can add it by clicking on the plus icon below the trigger banner.\*<br><br>
 
 <img src="/add-action-banner.png" alt="Add Action Banner" width="500px"><br>
 
-<span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> **Note**: If you cannot find Google Sheets, you can search for it in the search bar at the top of the page. </span><br><br>
+\***Note**: If you cannot find Google Sheets, you can search for it in the search bar at the top of the page.\*<br><br>
 
 <img src="/select-google-sheets.png" alt="Choose Google Sheets" width="500px"><br>
 
