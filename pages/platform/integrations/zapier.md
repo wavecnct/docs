@@ -10,15 +10,15 @@ Zapier is an excellent automation tool that removes the hassle of performing rep
 2. Under Settings, click on CRM Integrations.
 3. Click on '**Connect**' in front of Zapier.<br><br>
 
-<img src="/connect-zapier.png" alt="Connect Zapier CRM" width="500px"><br>
+    <img src="/connect-zapier.png" alt="Connect Zapier CRM" width="500px"><br>
 
 4. Copy your API key to your clipboard by clicking on the copy icon (we will use this key in later steps to create a link between Zapier and Wave), and click on '**Continue**'. A new tab, directing you to the zapier website, should open.<br><br>
 
-<img src="/copy-api-key.png" alt="Copy API Key" width="400px"><br>
+    <img src="/copy-api-key.png" alt="Copy API Key" width="400px"><br>
 
 5. On the new page, click on the orange, ‘**Connect Wave Connect to 6,000+ apps**’ button.<br><br>
 
-<img src="/orange-connect-button.png" alt="Connect Wave to Zapier Apps" width="500px"><br>
+    <img src="/orange-connect-button.png" alt="Connect Wave to Zapier Apps" width="500px"><br>
 
 6. You will be directed to a Zap creation page with a preliminary outline of your Zap. Each Zap is made of two separate events:
 
