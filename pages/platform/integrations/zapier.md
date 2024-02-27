@@ -21,7 +21,9 @@ Zapier is an excellent automation tool that removes the hassle of performing rep
 <img src="/orange-connect-button.png" alt="Connect Wave to Zapier Apps" width="500px"><br>
 
 6. Each Zap is made of two separate events:
+
     A. Trigger: an event that starts the automation process (e.g. new contact creation inside the Wave app).
+    
     B. Action: the automated process performed once the trigger occurs inside the wave app (i.e. when trigger happens, action follows).
 <br><br>
 <img src="/zap-layout.png" alt="Outline Of A Zap" width="500px"><br>
