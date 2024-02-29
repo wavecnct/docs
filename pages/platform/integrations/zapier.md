@@ -2,7 +2,7 @@
 
 ## Introduction
 <p>
-Zapier is an excellent automation tool that removes the hassle of performing repetitive tasks. It combines user interfaces, data tables, and logic with 6,000+ apps to build and automate simple tasks or build an entire automated system. In this document, we provide a step-by-step guide on how users can deploy the Wave Connect app on Zapier to sync information and lead to other Zapier apps.
+In this document, we provide a step-by-step guide on how users can integrate Zapier in their Wave account to sync contacts and lead across Zapier ecosystem. Zapier is an excellent automation tool that removes the hassle of performing repetitive tasks. It combines user interfaces, data tables, and logic with 6,000+ apps to build and automate simple tasks or entire automated systems.
 </p>
 
 ## Setting Up Your First Zap
@@ -22,9 +22,9 @@ Zapier is an excellent automation tool that removes the hassle of performing rep
 
 6. You will be directed to a Zap creation page with a preliminary outline of your Zap. Each Zap is made of two separate events:
 
-    A. Trigger: an event that starts the automation process (e.g. new contact creation inside the Wave app).
+    A. Trigger: an event that starts the automation process (e.g. new contact creation).
 
-    B. Action: the automated process performed once the trigger occurs inside the wave app (i.e. when trigger happens, action follows).
+    B. Action: the automated process performed once the trigger occurs. When trigger happens, action follows.
     <br><br>
     <img src="/zap-layout.png" alt="Outline Of A Zap" width="500px"><br>
 
