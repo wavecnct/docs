@@ -31,7 +31,7 @@
 
 ![manage_claims](/manage-claims.png)<br>
 
-<span style="background-color: #FFE598; display: block; max-width: 100%; padding: 20px; text-align: center; "> **Note**: Don't forget to assign users and /or groups to the application.</span>
+<span style="background-color: #FFE598; color: #000000; display: block; max-width: 100%; padding: 20px; text-align: center; "> **Note**: Don't forget to assign users and /or groups to the application.</span>
 
 <div style="page-break-after: always;"></div>
 
