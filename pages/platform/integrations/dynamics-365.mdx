@@ -1,0 +1,37 @@
+import { Callout } from "nextra/components";
+
+# Dynamics 365
+
+## Introduction
+
+In this document, we provide a step-by-step guide on how users can integrate Dynamics 365 in their Wave account to sync contacts across their Dynamics 365 ecosystem.
+
+## Intergrating Dynamics 365 in Your Wave Account
+
+1.  [Login](https://app.wavecnct.com/login) to your Wave user account
+2.  Go to Settings, then click on Integrations.
+3.  Click on the '**Connect**' button.<br /><br />
+    <img src="/connect-dynamics.png" alt="Connect Dynamics" width="500px" />
+    <br />
+4.  A pop-up will open, allowing you to turn on contact auto sync between your Wave and Dynamics 365 accounts. We recommend leaving this on. Press '**Continue**.' Additionally, provide your Dynamics 365 Sales Domain in the space provided. A new tab will open asking you to authenticate your Dynamics 365 account.<br /><br />
+    <img src="/dynamics-auto-sync-contacts.png" alt="Toggle Auto Sync" width="400px" />
+    <br />
+5.  Provide your Microsoft Dynamics 365 credentials in the fields provided. Press '**Log In**.'
+    <Callout type="info">
+    **Note**: The account you authenticate must be a Dynamics 365 administrative account to ensure your integration works properly.
+    </Callout><br />
+6.  After reviewing the permission prompt, check the consent box then press '**Accept**' to grant Dynamics 365 access to your Wave account data. You will now be re-directed to your Wave account.<br /><br />
+    <img src="/dynamics-allow-access.png" alt="Allow Access" width="300px" />
+    <br />
+7.  Verify a successful integration of Dynamics 365 by spotting the ‘**Disconnect**’ button across Dynamics 365.<br /><br />
+    <img src="/disconnect-dynamics.png" alt="Disconnect Button" width="500px" />
+
+    <Callout type="info">
+    **Note**: Your Wave contacts will automatically sync as '**Contacts**' in your Dynamics 365 account.
+    </Callout>
+
+Congratulations 🎉, you have successfully integrated Dynamics 365 in your Wave account.
+
+### Contact Owner Assignment:
+
+Wave Connect automatically assigns Lead/Contact owner based on the creator's email. If the email does not match with any Dynamics 365 user, the default value specified in your Dynamics 365 account applies.
