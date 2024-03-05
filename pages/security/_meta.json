@@ -1,7 +1,0 @@
-{
-    "compliance": "Compliance",
-    "access-control": "Access Control",
-    "saml": "SAML SSO",
-    "saml-custom-mapping": "SAML Custom Mapping",
-    "directory-sync": "Directory Sync"
-}
