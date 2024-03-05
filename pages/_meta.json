@@ -1,0 +1,13 @@
+{
+  "index": "Introduction",
+  "guide": "Guide",
+  "security": "Security",
+  "platform": "Platform",
+  "troubleshooting": "Troubleshooting",
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://wavecnct.com/pages/contact-us",
+    "newWindow": true
+  }
+}
