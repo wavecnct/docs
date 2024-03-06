@@ -1,23 +1,11 @@
-# Nextra Docs Template 
+# Welcome to the Wave Connect Documentation
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+Thank you for visiting the Wave Connect Documentation repository!
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+## Request Content
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+If you have any specific content requests related to using Wave Connect, we would be happy to hear from you! Simply navigate to the Issues tab, click "New issue" and choose the appropriate template.
 
-## Quick Start
+## Contribute to Docs
 
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
-
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+Contributions to the Wave Connect documentation are appreciated! If you've identified a bug, typo, or have a fix for an existing issue, feel free to open a new pull request in this repository.

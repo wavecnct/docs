@@ -11,10 +11,14 @@ In this document, we provide a step-by-step guide on how users can integrate Sal
 1.  [Login](https://app.wavecnct.com/login) to your Wave user account
 2.  Go to Settings, then click on Integrations.
 3.  Click on the '**Connect**' button.<br /><br />
-    <img src="/connect-salesforce.png" alt="Connect Salesforce" width="500px" />
+    <img src="/platform/integrations/salesforce/connect-salesforce.png" alt="Connect Salesforce" width="500px" />
     <br />
 4.  A pop-up will open, allowing you to turn on contact auto sync between your Wave and Salesforce accounts. We recommend leaving this on. Press '**Continue**.' A new tab will open asking you to authenticate your Salesforce account.<br /><br />
-    <img src="/salesforce-auto-sync-contacts.png" alt="Toggle Auto Sync" width="500px" />
+    <img
+      src="/platform/integrations/salesforce/salesforce-auto-sync-contacts.png"
+      alt="Toggle Auto Sync"
+      width="500px"
+    />
     <br />
 5.  Provide your Salesforce credentials in the fields provided. Press '**Log In**.'
     <Callout type="info">
@@ -23,11 +27,11 @@ In this document, we provide a step-by-step guide on how users can integrate Sal
     </Callout>
     <br />
 6.  After reviewing the permission prompt, grant Salesforce access to your Wave account data. You will now be re-directed to your Wave account.<br /><br />
-    <img src="/salesforce-allow-access.png" alt="Allow Access" width="300px" />
+    <img src="/platform/integrations/salesforce/salesforce-allow-access.png" alt="Allow Access" width="300px" />
     <br />
 7.  Verify a successful integration of Salesforce by spotting the ‘**Disconnect**’ button across Salesforce.<br /><br />
 
-    <img src="/disconnect-salesforce.png" alt="Disconnect Button" width="500px" />
+    <img src="/platform/integrations/salesforce/disconnect-salesforce.png" alt="Disconnect Button" width="500px" />
 
     <Callout type="info">
       **Note**: Your Wave contacts will automatically sync as '**Leads**' in your Salesforce account.
@@ -47,33 +51,57 @@ Wave Connect automatically assigns Lead/Contact owner based on the creator's ema
 ## Manually Add Wave Connect External ID:
 
 1.  Navigate to '_Lead_' in'_Object Manager_' under '_Setup_.'<br /><br />
-    <img src="/object-manager-lead.png" alt="Natigate to Leads Settings" width="700px" />
+    <img
+      src="/platform/integrations/salesforce/object-manager-lead.png"
+      alt="Natigate to Leads Settings"
+      width="700px"
+    />
     <br />
 2.  Verify that '_WaveConnectId\_\_c_' exists under '_Fields & Relationships_.'<br /><br />
     <img
-      src="/wave-connect-external-id.png"
+      src="/platform/integrations/salesforce/wave-connect-external-id.png"
       alt="Check For Wave Connect External Id Under Fields and RElationships"
       width="700px"
     />
     <br />
 3.  If '_WaveConnectId\_\_c_' does not exist, create a new field by clicking '**New**' under '-Fields & Relationships-.'<br /><br />
-    <img src="/new-fields-relationships.png" alt="Add a New Field to Fields & Relationship" width="700px" />
+    <img
+      src="/platform/integrations/salesforce/new-fields-relationships.png"
+      alt="Add a New Field to Fields & Relationship"
+      width="700px"
+    />
     <br />
 4.  Select 'Text' for '_Choose the field type_' and press '**Next**.'<br /><br />
-    <img src="/new-field-step-one.png" alt="Setup New Field: Step One" width="700px" />
+    <img src="/platform/integrations/salesforce/new-field-step-one.png" alt="Setup New Field: Step One" width="700px" />
     <br />
 5.  Enter the following details for 'Enter the details' then press '**Next**.'<br /><br />
-    <img src="/new-field-step-two.png" alt="Setup New Field: Step Two" width="700px" />
+    <img src="/platform/integrations/salesforce/new-field-step-two.png" alt="Setup New Field: Step Two" width="700px" />
     <br />
 6.  Confirm '_Standard User_' is checked under '_Established field-level security_' and press '**Next**.'<br /><br />
-    <img src="/new-field-step-three.png" alt="Setup New Field: Step Three" width="700px" />
+    <img
+      src="/platform/integrations/salesforce/new-field-step-three.png"
+      alt="Setup New Field: Step Three"
+      width="700px"
+    />
     <br />
 7.  Under '_Add to page layouts_,' select all layouts you wish to add this field to then press '**Save**.'<br /><br />
-    <img src="/new-field-step-four.png" alt="Setup New Field: Step Four" width="700px" />
+    <img
+      src="/platform/integrations/salesforce/new-field-step-four.png"
+      alt="Setup New Field: Step Four"
+      width="700px"
+    />
     <br />
 8.  If '_Wave Connect External Id_' already exists under '_Fields & Relationships_,' click its name to navigate to its properties then press '**Set Field-Level Security**.'<br /><br />
-    <img src="/hubspot-field-level-security.png" alt="Navigate to Field-Level Security" width="700px" />
+    <img
+      src="/platform/integrations/salesforce/hubspot-field-level-security.png"
+      alt="Navigate to Field-Level Security"
+      width="700px"
+    />
     <br />
 9.  Confirm '_Standard User_' is checked under '_Field-level security for profile_.' Press '**Save**.'<br /><br />
-    <img src="/standard-user-checked.png" alt="Check if Standard User is Checked" width="700px" />
+    <img
+      src="/platform/integrations/salesforce/standard-user-checked.png"
+      alt="Check if Standard User is Checked"
+      width="700px"
+    />
     <br />
