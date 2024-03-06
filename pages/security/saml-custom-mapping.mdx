@@ -4,6 +4,8 @@ import { Callout } from "nextra/components";
 
 Learn how to configure SAML SSO for your organization with Custom Mapping.
 
+We recommend using [Directory Sync](/security/directory-sync) whenever possible.
+
 ## Available Custom Claims
 
 {<table>
@@ -62,14 +64,14 @@ Learn how to configure SAML SSO for your organization with Custom Mapping.
   </tbody>
 </table>}
 
-## Adding custom claims for Intra ID integration
+## Intra ID integration
 
 On your Azure application, go to **Single Sign-On** page, then click **Edit** under the **Attributes & Claims** section.<br />
 
-<img src="/edit-attributes-claims.png" alt="Edit Attributes & Claims" width="550px" />
+<img src="/security/saml-custom-mapping/edit-attributes-claims.png" alt="Edit Attributes & Claims" width="550px" />
 
 Click on **Add New Claim**, then add one the following available fields as the name of the claim:
 
 For **Source Attribute**, enter one of the fields available in your Intra ID.<br />
 
-<img src="/source-attribute.png" alt="Source Attribute" width="550px" />
+<img src="/security/microsoft-intra-id/source-attribute.png" alt="Source Attribute" width="550px" />
