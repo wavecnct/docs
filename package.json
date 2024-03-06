@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Wave Connect Documentation",
   "license": "Apache-2.0",
   "scripts": {
