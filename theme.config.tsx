@@ -5,7 +5,7 @@ import Image from "next/image";
 const config: DocsThemeConfig = {
   logo: (
     <Image
-      src="/logo.png"
+      src="/logo.svg"
       width={100}
       height={22}
       className="h-full max-h-[36px] w-auto max-w-[105px]"
